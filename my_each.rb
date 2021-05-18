@@ -1,7 +1,7 @@
 def my_each(collection)
   if block_given?
     i = 0 
-    while i < array.validates_length 
+    while i < array.length 
       yield(collection[i])
       i += 1 
       puts i
